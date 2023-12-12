@@ -1,0 +1,39 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    width: 100vw;
+    
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  .navbar ul{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    gap : 90px;
+    list-style-type: none;
+  }
+  
+  .navbar h1{
+    margin-right: 800px;
+  }

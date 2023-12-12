@@ -1,0 +1,53 @@
+
+h1{
+    text-align: center;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: white;
+  }
+
+  .box{
+    border: 1px solid black;
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: mediumturquoise;
+    margin-left: 38%;
+    margin-top: 2%;
+
+  }
+
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label{
+    text-align: left;
+  }
+  
+  .inp{
+    width: 90%;
+    border-radius: 6px;
+    background-color:rgb(255, 218, 223);
+    color: black;
+  }
+
+  .register{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+  }
